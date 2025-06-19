@@ -9,5 +9,6 @@ namespace WebApplication1Api.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Country> Countries { get; set; }
     }
 }
